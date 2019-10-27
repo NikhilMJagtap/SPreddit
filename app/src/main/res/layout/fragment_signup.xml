@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".signupFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="30dp"
+        android:layout_gravity="center">
+        <EditText
+            android:id="@+id/signEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter e-mail address"
+            android:textColorHint="@color/hintFont"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/mainFont" />
+        <EditText
+            android:id="@+id/signPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Enter password"
+            android:textColorHint="@color/hintFont"
+            android:inputType="textPassword"
+            android:textColor="@color/mainFont" />
+        <EditText
+            android:id="@+id/signPassword2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="Retype the password"
+            android:textColorHint="@color/mainFont"
+            android:inputType="textPassword"
+            android:textColor="@color/hintFont" />
+        <Button
+            android:id="@+id/signupButton"
+            android:layout_width="wrap_content"
+            android:layout_margin="10dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/mainFont"
+            android:background="@color/colorPrimary"
+            android:text="Sign Up"
+            android:layout_gravity="center"
+            android:textAllCaps="true" />
+    </LinearLayout>
+
+</FrameLayout>

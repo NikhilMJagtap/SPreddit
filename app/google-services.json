@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "249259538775",
+    "firebase_url": "https://spreddit-0.firebaseio.com",
+    "project_id": "spreddit-0",
+    "storage_bucket": "spreddit-0.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:249259538775:android:23c6b9077553829784a612",
+        "android_client_info": {
+          "package_name": "com.example.spreddit"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "249259538775-lbkk86vgv1bmckdv3jm7ha1klcgtv8ih.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDMT_rACAep5qRbfHyXpuo0dgmLa1WSKvc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "249259538775-lbkk86vgv1bmckdv3jm7ha1klcgtv8ih.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
